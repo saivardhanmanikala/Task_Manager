@@ -1,6 +1,6 @@
 import { MongoClient, type Db } from "mongodb"
 
-const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/trello-clone"
+const uri = process.env.MONGODB_URI || "mongodb+srv://saivardhanmanikala:saivardan66112@taskmanager.allm2jy.mongodb.net/?retryWrites=true&w=majority&appName=TaskManager&tls=true"
 const options = {}
 
 let client: MongoClient
