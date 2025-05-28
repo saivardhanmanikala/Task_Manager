@@ -1,6 +1,6 @@
 import { MongoClient, type Db } from "mongodb"
 
-const uri = process.env.MONGODB_URI || "mongodb+srv://saivardhanmanikala:saivardan66112@taskmanager.allm2jy.mongodb.net/?retryWrites=true&w=majority&appName=TaskManager&tls=true"
+const uri = process.env.MONGODB_URI as string
 const options = {}
 
 let client: MongoClient
